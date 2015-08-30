@@ -20,5 +20,13 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/reaganthomas/algebra.pointfree/issues"
+  },
+  "dependencies": {
+    "lodash.curry": "^3.0.2"
+  },
+  "devDependencies": {
+    "claire": "^0.4.1",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.3"
   }
 }
