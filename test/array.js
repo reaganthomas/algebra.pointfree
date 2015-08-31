@@ -2,7 +2,7 @@ require('../lib/index').expose(global);
 
 var assert = require('assert');
 var quickCheckLaws = require('./helper').quickCheckLaws;
-var monoids = require('../lib/instances/monoids');
+var Sum = require('algebra.structures.sum');
 var claire = require('claire');
 var Maybe = require('../lib/instances/maybe');
 var _ = claire.data;
@@ -24,6 +24,6 @@ describe('Array', function() {
   });
 
   it('is foldable', function() {
-    assert.deepEqual(foldMap(monoids.Sum, [1,2,3]), monoids.Sum(6));
+    assert.deepEqual(foldMap(Sum, [1,2,3]), Sum(6));
   });
 });
