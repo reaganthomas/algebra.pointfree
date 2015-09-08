@@ -1,6 +1,6 @@
 {
   "name": "algebra.pointfree",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A set of utilities enabling the construction of pointfree, functional code.",
   "main": "lib/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "lodash.curry": "^3.0.2"
   },
   "devDependencies": {
-    "algebra.structures.sum": "^0.1.3",
+    "algebra.structures": "^0.1.2",
     "claire": "^0.4.1",
     "gulp": "^3.9.0",
     "gulp-bump": "^0.3.1",

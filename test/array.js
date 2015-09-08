@@ -2,7 +2,7 @@ require('../lib/index').expose(global);
 
 var assert = require('assert');
 var quickCheckLaws = require('./helper').quickCheckLaws;
-var Sum = require('algebra.structures.sum');
+var Sum = require('algebra.structures').Sum;
 var claire = require('claire');
 var Maybe = require('../lib/instances/maybe');
 var _ = claire.data;
