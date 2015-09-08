@@ -1,6 +1,6 @@
 {
   "name": "algebra.pointfree",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "A set of utilities enabling the construction of pointfree, functional code.",
   "main": "lib/index.js",
   "scripts": {
@@ -28,6 +28,7 @@
     "algebra.structures.sum": "^0.1.3",
     "claire": "^0.4.1",
     "gulp": "^3.9.0",
+    "gulp-bump": "^0.3.1",
     "gulp-mocha": "^2.1.3"
   }
 }
