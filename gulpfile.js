@@ -5,7 +5,7 @@
 
   gulp.task('test', function() {
     return gulp.src('test/**/*.js', { read: false })
-      .pipe(mocha());
+      .pipe(mocha({ timeout: 5000 }));
   });
 
   gulp.task('bump', function() {
