@@ -1,6 +1,6 @@
 {
   "name": "algebra.pointfree",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A set of utilities enabling the construction of pointfree, functional code.",
   "main": "lib/index.js",
   "scripts": {
@@ -27,8 +27,12 @@
   "devDependencies": {
     "algebra.structures": "^0.1.2",
     "claire": "^0.4.1",
+    "coveralls": "^2.11.4",
     "gulp": "^3.9.0",
     "gulp-bump": "^0.3.1",
-    "gulp-mocha": "^2.1.3"
+    "gulp-mocha": "^2.1.3",
+    "istanbul": "^0.3.19",
+    "mocha": "^2.3.2",
+    "mocha-lcov-reporter": "0.0.2"
   }
 }
