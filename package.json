@@ -22,7 +22,7 @@
     "url": "https://github.com/reaganthomas/algebra.pointfree/issues"
   },
   "dependencies": {
-    "lodash.curry": "^3.0.2"
+    "lodash.curry": "^4.0.0"
   },
   "devDependencies": {
     "algebra.structures": "^0.1.2",
